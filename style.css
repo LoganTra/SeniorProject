@@ -112,10 +112,87 @@ body {
     left: 20px;
 }
 
+/* Login Page */
+
+body {
+    min-height: 100vh;
+    background-color: #818ea0;
+
+}
+
+form {
+    background-color: #088178;
+    width: 350px;
+    height: 580px;
+    padding: 75px 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 45px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.textbox {
+    border-bottom: 2px solid #fff;
+    position: relative;
+    margin: 35px 0;
+}
+
+.textbox input {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #fff;
+    height: 30px;
+    font-size: 20px;
+}
+
+.loginbtn {
+    transition: 0.5s;
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #cce7d0;
+    background-size: 200%;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.loginbtn:hover {
+    background-position: right;
+    font-size: 17px;
+}
+
+.signup:hover {
+    background-position: right;
+    font-size: 17px;
+
+}
+
+.signup {
+    color: #fff;
+    margin-top: 45px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.signup a {
+    color: #1a1a1a;
+}
+
 
 /* Home Page */
 #hero {
-    background-image: url("img/cows.png");
+    background-image: url("cows.png");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -136,7 +213,7 @@ body {
 }
 
 #hero button {
-    background-image: url("img/button.jpeg");
+    background-image: url("button.jpeg");
     background-color: transparent;
     color: #088178;
     border: 0;
@@ -268,7 +345,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url(img/FallFarm_30.jpg);
+    background-image: url(FallFarm_30.jpg);
     background-repeat: no-repeat;
     background-position: 20% 30%;
     background-color: #041e42;
@@ -374,7 +451,7 @@ footer .copyright {
 /* Shop Page */
 
 #page-header {
-    background-image: url(img/Page-header.jpeg);
+    background-image: url(Page-header.jpeg);
     width: 100%;
     height: 70vh;
     background-size: cover;
@@ -474,7 +551,7 @@ footer .copyright {
 
 /* Blog Page */
 #page-header.blog-header {
-    background-image: url(img/blog-header.jpeg);
+    background-image: url(blog-header.jpeg);
 }
 
 
@@ -482,7 +559,7 @@ footer .copyright {
 /* About Page */
 
 #page-header.about-header {
-    background-image: url(img/blog-img-1.jpeg);
+    background-image: url(blog-img-1.jpeg);
 }
 
 #about-head {
@@ -502,7 +579,7 @@ footer .copyright {
 /* Contact Page */
 
 #page-header.contact-header {
-    background-image: url(img/contact1.jpeg);
+    background-image: url(contact1.jpeg);
 }
 
 #contact-details {
