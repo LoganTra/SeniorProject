@@ -5,24 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Sign up</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form method="post" action="login.php">
-        <h1>Login</h1>
+        <h1>Sign up</h1>
         <div class="textbox">
             <input type="text" placeholder="username" name="username">
         </div>
         <div class="textbox">
             <input type="password" placeholder="password" name="password">
         </div>
-        <input type="submit" value="Login" class="loginbtn" name="login_btn">
+        <input type="submit" value="Signup" class="loginbtn" name="login_btn">
         <div class="signup">
-            Don't have an account?
+            Click to Login
             </br>
-            <a herf="signup.php">Sign up</a>
+            <a herf="login.php">Sign up</a>
         </div>
     </form>
 
