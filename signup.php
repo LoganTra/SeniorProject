@@ -18,11 +18,13 @@
         <div class="textbox">
             <input type="password" placeholder="password" name="password">
         </div>
+        <div class="textbox">
+            <input type="email" placeholder="email" name="email">
+        </div>
         <input type="submit" value="Signup" class="loginbtn" name="login_btn">
         <div class="signup">
-            Click to Login
             </br>
-            <a herf="login.php">Sign up</a>
+            <a herf="login.php">Click to Login</a>
         </div>
     </form>
 

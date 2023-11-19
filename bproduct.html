@@ -8,18 +8,17 @@
     <title>Locally Grown Products</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" async></script>
 </head>
+
 <body>
 
 
-
     <section id="header">
-        <a href="#"><img src="logo2_2.webp" class="logo" alt=""/>
+        <a href="#"><img src="logo2_2.webp" class="logo" alt=""/a>
         <div>
             <ul id="navbar">
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="shop.html">Shop</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -28,22 +27,38 @@
         </div>
     </section>
 
-    <section id="hero">
-        <h4>Shop Local</h4>
-        <h2>Help Local Economy</h2>
-        <h1>Local Produce</h1>
-        <p>Save more while buying Locally</p>
-        <button class="normal">Shop Now</button>
-    </section>
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="Brisket.jpeg" width="100%" id="MainImg" alt="">
 
-    <section id="feature" class="section-p1">
-        <div class="fe-box">
-            <img src="PinesHillAbout_80x80.webp" alt="">
-            <h6>Pines Hill Farm</h6>
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="Chicken.jpeg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="Chicken.jpeg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="Chicken.jpeg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="Chicken.jpeg" width="100%" class="small-img" alt="">
+                </div>
+            </div>
         </div>
-        <div class="fe-box">
-            <img src="Stony Slope Farm Logo 3.0.png" alt="">
-            <h6>Stony Slopes Farm</h6>
+        <div class="single-pro-details">
+            <h6>Pines Hill Farm Brisket</h6>
+            <h4>Fresh Locally Grown Brisket</h4>
+            <h2>$21.00</h2>
+            <select>
+            <option>Select Size</option>
+            <option>Large</option>
+            <option>Small</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add To Cart</button>
+            <h4>Product Details</h4>
+            <span>Our locally grown fresh whole chicken is a culinary delight that brings the farm-fresh goodness to your kitchen. Sourced from local, trusted farms, our chickens are raised with care, ensuring the highest quality and freshness in every bite. Our chickens are raised in a healthy and natural environment, ensuring the best possible taste and texture. They're free from hormones and antibiotics, providing you with a wholesome and nutritious choice.</span>
         </div>
     </section>
 
@@ -55,22 +70,7 @@
                 <img src="Chicken.jpeg" alt="">
                 <div class="des">
                     <span>Chicken</span>
-                    <h5>Whole Chicken</h5>
-                    <dev class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </dev>
-                    <h4>$21</h4>
-                </div>
-            </div>
-            <div class="pro" onclick="window.location.href='bproduct.html';">
-                <img src="Brisket.jpeg" alt="">
-                <div class="des">
-                    <span>Brisket</span>
-                    <h5>Fresh Brisket</h5>
+                    <h5>Fresh Chicken</h5>
                     <dev class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -82,7 +82,7 @@
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro" onclick="window.location.href='shproduct.html';">
                 <img src="SomkedHam.jpeg" alt="">
                 <div class="des">
                     <span>Ham</span>
@@ -98,7 +98,7 @@
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro" onclick="window.location.href='TRSproduct.html';">
                 <img src="TopRoundSteak.jpeg" alt="">
                 <div class="des">
                     <span>Steak</span>
@@ -114,7 +114,7 @@
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro" onclick="window.location.href='eproduct.html';">
                 <img src="eggs.jpeg" alt="">
                 <div class="des">
                     <span>Eggs</span>
@@ -127,54 +127,6 @@
                         <i class="fas fa-star"></i>
                     </dev>
                     <h4>$2.99</h4>
-                </div>
-                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-            </div>
-            <div class="pro">
-                <img src="GroundBeef.webp" alt="">
-                <div class="des">
-                    <span>Fresh Ground Beef</span>
-                    <h5>Ground Beef</h5>
-                    <dev class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </dev>
-                    <h4>$5.99lb</h4>
-                </div>
-                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-            </div>
-            <div class="pro">
-                <img src="Pork.webp" alt="">
-                <div class="des">
-                    <span>Pork</span>
-                    <h5>Fresh Pork</h5>
-                    <dev class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </dev>
-                    <h4>$5.99lb</h4>
-                </div>
-                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-            </div>
-            <div class="pro">
-                <img src="Raw-Beef-Short-Ribs_9.jpg.webp" alt="">
-                <div class="des">
-                    <span>Ribs</span>
-                    <h5>Short Ribs</h5>
-                    <dev class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </dev>
-                    <h4>$5.99lb</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
@@ -199,7 +151,7 @@
             <h4>Contact</h4>
             <p><strong>Address:</strong>1995 Route 302, Lisbon, NH, United States, New Hampshire</p>
             <p><strong>Phone:</strong>(603)991-4435</p>
-            <p><strong>Hours:8 - 8</strong></p>
+            <p><strong>Hours:</strong></p>
             <div class="follow">
                 <h4>Follow Us</h4>
                 <div class="icon">
@@ -234,6 +186,23 @@
         </div>
     </footer>
 
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function() {
+            MainImg.src = smallimg[0].src; 
+        }
+        smallimg[1].onclick = function() {
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function() {
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function() {
+            MainImg.src = smallimg[3].src;
+        }
+    </script>
 
     <script>src="script.js"</script>
 </body>
