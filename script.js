@@ -5,7 +5,7 @@ if (document.readyState == 'loading') {
 }
 
 function ready() {
-    var removeCartItemsButtons = document.getElementsByClassName('cart')
+    var removeCartItemsButtons = document.getElementsByClassName('btn-danger')
     console.log(removeCartItemsButtons)
     for (var i = 0; i < removeCartItemsButtons.length; i++) {
         var button = removeCartItemsButtons[i]
