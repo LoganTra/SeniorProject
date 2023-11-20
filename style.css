@@ -566,6 +566,13 @@ footer .copyright {
     border-radius: 10px;
 }
 
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
 .btn-danger {
     color: white;
     background-color: #eb5757;
