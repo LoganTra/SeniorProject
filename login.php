@@ -31,14 +31,14 @@
 </html>
 
 <?php
-$conn = mysqli_connect("localhost", "root","");
+$conn = mysqli_connect("login.cjalczv3mhdl.us-east-1.rds.amazonaws.com", "admin", "12345678");
 if(isset($_POST['login_btn'])){
     $username=$_POST['username'];
     $password=$_POST['password'];
-    $sql= "SELECT * FROM websitelogin.logindetails WHERE username = '$username'";
+    $sql= "SELECT * FROM login_info.login WHERE username = '$User_Name'";
     $result = mysqli_query($conn,$sql);
     while($row = mysqli_fetch_assoc($result)){
-        $resultPassword = $row['password'];
+        $resultPassword = $row['Password'];
         if($password == $resultPassword){
             header('Location:index.html');
         }else{
